@@ -1,0 +1,22 @@
+theme = "mqix"
+
+[editor]
+auto-format = true
+completion-replace = true
+idle-timeout = 0
+
+[keys.normal]
+f = ":format"
+C-s = ":write"
+esc = ["collapse_selection", "keep_primary_selection"]
+
+[editor.file-picker]
+hidden = false
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.soft-wrap]
+enable = true
+max-indent-retain = 0
+wrap-indicator = ""

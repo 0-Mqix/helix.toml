@@ -1,0 +1,21 @@
+inherits = "sonokai"
+
+"attribute" = {fg = "orange", modifiers = ["italic"] }
+"tag" = { fg = "green", modifiers = ["bold"]}
+
+"punctuation.bracket" = "grey"
+"variable.parameter" = "orange"
+"function.macro" = "red"
+"operator" = "red"
+"namespace" = "fg"
+
+"hint" = "white"
+"info" = "blue"
+"warning" = "yellow"
+"error" = "red"
+
+"diagnostic" = { underlined = { style = "line" } }
+"diagnostic.hint" = { underline = {  style = "line" } }
+"diagnostic.info" = { bg="blue", fg="white" }
+"diagnostic.warning" = { bg="yellow", fg="black" }
+"diagnostic.error" = { bg="red", fg="white" }

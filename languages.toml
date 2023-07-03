@@ -1,0 +1,12 @@
+[[language]]
+name = "go"
+formatter = { command = "goimports" }
+auto-format = true
+
+[[language]]
+name = "svelte"
+auto-format = true
+
+[[language]]
+name = "typescript"
+auto-format = true
